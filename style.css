@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+body {
+    height: 100svh;
+    width: 100svw;
+    font-family: "Rubik", sans-serif;
+    background-color: black;
+    color: white;
+
+
+}
+
+header {
+    font-family: "Playwrite AU QLD", cursive;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul a {
+    color: white;
+}
+
+
+
+
+.intro {
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    padding: 60px;
+
+
+    margin: 30px;
+
+}
+
+
+.description {
+
+
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    width: 100%;
+
+    padding: 30px;
+
+
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+.intro p {
+    width: 100%;
+    font-size: 2rem;
+
+}
+
+
+
+.title i {
+    font-size: 40px;
+
+}
+
+.title h2 {
+    margin: 30px;
+    font-size: 4rem;
+}
+
+.cv button {
+    padding: 10px 30px;
+
+    margin-top: 20px;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+
+    border: 2px solid white;
+
+
+}
+
+.cv button:hover {
+    color: black;
+    background-color: white;
+
+}
+
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    padding: 80px;
+
+}
+
+.skills h2 {
+    grid-area: header;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.cards {
+    grid-area: skills;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    margin-top: 10px;
+}
+
+.cards div {
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0px 0px 2px black;
+
+    gap: 40px;
+
+
+
+}
+
+.c1 {
+    grid-row: 2/3;
+    grid-column: 4/5;
+}
+
+.c2 {
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+
+.pyth {
+    grid-row: 2/3;
+    grid-column: 5/6;
+}
+
+.html {
+    grid-column: 3/4;
+}
+
+.css {
+    grid-column: 4/5;
+}
+
+.js {
+    grid-column: 5/6;
+}
+
+
+
+.cards img {
+
+    width: 50%;
+    height: 70%;
+
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    margin-top: 50px;
+    ;
+
+
+
+
+}
+
+.contacts button {
+    padding: 10px 30px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border: 1px solid white;
+
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2rem;
+    padding: 50px;
+}
+
+.pro-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.p {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+
+
+
+
+
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.p img {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 5px 5px 0px 0px;
+}
+
+#p1 {
+    position: relative;
+}
+
+#p2 {
+    position: relative;
+}
+
+#p3 {
+    position: relative;
+}
+
+
+#p1 .cover {
+
+
+    background-color: rgba(0, 0, 0, 0.367);
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    /*visibility: hidden;*/
+    /*opacity:0%*/
+
+    opacity: 0%;
+
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+
+
+
+}
+
+.cover button {
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+
+#p2 .cover {
+
+
+    background-color: rgba(0, 0, 0, 0.367);
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+
+    opacity: 0%;
+
+
+
+
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+
+
+
+}
+
+#p3 .cover {
+
+
+    background-color: rgba(0, 0, 0, 0.367);
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    /*visibility: hidden;*/
+    opacity: 0%;
+
+
+
+
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+
+
+
+}
+
+#p3 .cover:hover {
+    animation-name: demo;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#p1 .cover:hover {
+    animation-name: demo;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#p2 .cover:hover {
+    animation-name: demo;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 60px;
+    font-size: 40px;
+    gap: 20px;
+
+
+}
+
+input {
+    padding: 40px 100px;
+    text-align: center;
+
+}
+
+button{
+    cursor: pointer;
+}
+
+
+@media(max-width:426px) {
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .intro p {
+        width: 70%;
+
+
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .pro-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .p {
+        width: 100%;
+
+    }
+
+
+
+
+
+}
+
+@keyframes demo {
+
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+
+}
+
+/*@keyframes title {
+    0% {
+        content: "|";
+    }
+
+    10% {
+        content: "O|"
+    }
+
+    20% {
+        content: "Om|";
+    }
+
+    30% {
+        content: "Oma|"
+    }
+
+    40% {
+        content: "Omar|"
+    }
+
+    50% {
+        content: "Omar A|";
+    }
+
+    60% {
+        content: "Omar Ah|";
+    }
+
+    70% {
+        content: "Omar Ahm|";
+    }
+
+    80% {
+        content: "Omar Ahme|";
+    }
+
+    90% {
+        content: "Omar Ahmed|";
+    }
+
+    100% {
+        content: "Omar Ahmed";
+    }
+
+}*/
+
+.html:hover {
+    animation-name: color_change;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+}
+
+.css:hover {
+    animation-name: color_change;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.js:hover {
+    animation-name: color_change;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.c1:hover {
+    animation-name: color_change;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.c2:hover {
+    animation-name: color_change;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.pyth:hover {
+    animation-name: color_change;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes color_change {
+    from {
+        background-color: black;
+    }
+
+    to {
+        background-color: white;
+    }
+
+}
