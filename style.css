@@ -399,12 +399,13 @@ button{
     .intro {
         display: flex;
         flex-direction: column;
-
+       
 
     }
 
     .intro p {
         width: 70%;
+        height: 20%;
 
 
     }
@@ -418,6 +419,7 @@ button{
     .pro-container {
         display: flex;
         flex-direction: column;
+        
         gap: 20px;
 
     }
@@ -426,6 +428,20 @@ button{
         width: 100%;
 
     }
+
+    nav{
+        display: none;
+    }
+    header{
+        text-align: center;
+    }
+    header div{
+        width: 100%;
+
+    }
+    
+
+    
 
 
 
